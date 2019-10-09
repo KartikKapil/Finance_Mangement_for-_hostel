@@ -41,9 +41,15 @@ def cal_main(login_id,password):
 	conn=sqlite3.connect("Main_database.db")
 	cur=conn.cursor()
 	for row in cur.execute("SELECT * FROM info WHERE login_id=? and password=?",(login_id,password)):
-		print(row)
+		mon_amo=row[2]
+		mon_sav=row[3]
+		doe1=row[4]
+		doe2=row[5]
+		doe3=row[6]
+		doe4=row[7]
+		
 
-	print(mon_amo)
+	
 
 	conn.commit()
 	conn.close()

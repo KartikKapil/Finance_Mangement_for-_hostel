@@ -1,11 +1,10 @@
 from tkinter import * 
 from tkinter.ttk import * 
-
+from Not_a_user import *
 import os
 
 def create_new_user():
-	import Not_a_user.py
-	os.system("Not_a_user.py 1")
+	main()
 
 
 def exit_pro():
@@ -14,7 +13,7 @@ def exit_pro():
 
 
 window=Tk()
-#window.geometry('500x100')
+window.title("Welcome")
 
 t1=Label(window,text="login")
 t1.grid(row=0,column=0)
@@ -40,9 +39,5 @@ b2.grid(row=2,column=1)
 
 b3=Button(window,text="exit",command=exit_pro)
 b3.grid(row=2,column=2)
-
-
-
-
 
 window.mainloop()
