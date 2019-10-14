@@ -2,13 +2,31 @@ from tkinter import *
 from tkcalendar import Calendar, DateEntry
 from tkinter import ttk
 import tkinter as tk
+import backend_main
 
 n=7
-
+dates=[]
+no_of_dates=0
 def main():
 	def example():
 	    def print_sel():
-	        print(cal.selection_get())
+	    	global dates,no_of_dates
+	    	no_of_dates=no_of_dates+1
+	    	dates.append(cal.selection_get())
+	    	if(no_of_dates==1):
+	    		dates.append(None)
+	    		dates.append(None)
+	    		dates.append(None)
+	    	elif(no_of_dates==2):
+	    		dates.append(None)
+	    		dates.append(None)
+	    	elif(no_of_dates==3):
+	    		dates.append(None)
+
+
+
+	    	#print(type(cal.selection_get())) 
+	    	#print(cal.selection_get())
 
 	    top = tk.Toplevel(window)
 
@@ -34,6 +52,12 @@ def main():
 		drop_list1.grid(row=n,column=2)
 		n=n+1
 
+	def submit():
+		a=str(cusin_1.get())+str(cusin_2.get())+str(cusin_3.get())+str(cusin_4.get())+str(cusin_5.get())+str(cusin_6.get())
+		backend_main.enter_data(new_login.get(),new_password.get(),montly_budget.get(),option_1.get(),option_2.get(),option_3.get(),option_4.get(),a,dates[0],dates[1],dates[2],dates[3])
+
+		
+
 
 
 
@@ -55,51 +79,43 @@ def main():
 	e2=Entry(window,show="*",textvariable=new_password)
 	e2.grid(row=1,column=1,columnspan=2)
 
-	t3=Label(window,text="Retype Password")
+	t3=Label(window,text="Make a strog Password Using alphabetw")
 	t3.grid(row=2,column=0)
 
-	retype_password=StringVar()
-	e3=Entry(window,show="*",textvariable=retype_password)
-	e3.grid(row=2,column=1,columnspan=2)
-
-	if(retype_password==new_password):
-		t4=Label(window,text="Matches prefectly")
-		t4.grid(row=2,column=3)
-	else:
-		t4=Label(window,text="Does Not Match")
-		t4.grid(row=2,column=3)
-
+	
 	t5=Label(window,text="Cuisine")
 	t5.grid(row=3,column=0)
 
 	cusin_1=IntVar()
-	check_cusin_1=Checkbutton(window,text="Italian",variable=cusin_1)
+	
+	check_cusin_1=Radiobutton(window,text="Italian",variable=cusin_1, value= 1)
 	check_cusin_1.grid(row=3,column=1)
 
 	cusin_2=IntVar()
-	check_cusin_2=Checkbutton(window,text="Chinese",variable=cusin_2)
+	check_cusin_2=Radiobutton(window,text="Chinese",variable=cusin_2,value=2)
 	check_cusin_2.grid(row=3,column=2)
 
 	cusin_3=IntVar()
-	check_cusin_3=Checkbutton(window,text="Indian",variable=cusin_3)
+	check_cusin_3=Radiobutton(window,text="Indian",variable=cusin_3,value=3)
 	check_cusin_3.grid(row=3,column=3)
 
 	cusin_4=IntVar()
-	check_cusin_4=Checkbutton(window,text="Tandoori",variable=cusin_4)
+	check_cusin_4=Radiobutton(window,text="Tandoori",variable=cusin_4,value=4)
 	check_cusin_4.grid(row=4,column=1)
 
 	cusin_5=IntVar()
-	check_cusin_5=Checkbutton(window,text="Non Veg",variable=cusin_5)
+	check_cusin_5=Radiobutton(window,text="Non Veg",variable=cusin_5,value=5)
 	check_cusin_5.grid(row=4,column=2)
 
 	cusin_6=IntVar()
-	check_cusin_6=Checkbutton(window,text="Tandoori",variable=cusin_6)
+	check_cusin_6=Radiobutton(window,text="Tandoori",variable=cusin_6,value=6)
 	check_cusin_6.grid(row=4,column=3)
+	
 
 	t6=Label(window,text="Montly Buget")
 	t6.grid(row=5,column=0)
 
-	montly_budget=StringVar()
+	montly_budget=IntVar()
 	e4=Entry(window,textvariable=montly_budget)
 	e4.grid(row=5,column=1,columnspan=2)
 
@@ -163,7 +179,7 @@ def main():
 	e5=Entry(window,textvariable=saving_value)
 	e5.grid(row=10,column=1)
 
-	b_final=Button(window,text="Submit")
+	b_final=Button(window,text="Submit",command=submit)
 	b_final.grid(row=11,column=1)
 
 	b_final1=Button(window,text="Exit",command=sure)
