@@ -1,0 +1,2 @@
+http://schemastore.org/json/
+https://www.geeksforgeeks.org

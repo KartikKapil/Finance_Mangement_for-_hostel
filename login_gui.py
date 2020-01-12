@@ -1,14 +1,19 @@
 from tkinter import * 
 from tkinter.ttk import * 
-from Not_a_user import *
+from Not_a_user import imp
 import os
 
 def create_new_user():
-	main()
+	k=imp
+	k.run()
+	
+def login_user():
+	printf("hello")
 
 
 def exit_pro():
 	sys.exit()
+
 
 
 
@@ -34,7 +39,7 @@ e2.grid(row=1,column=1,columnspan=30)
 b1=Button(window,text="NOT A USER",command=create_new_user)
 b1.grid(row=2,column=0)
 
-b2=Button(window,text="Login")
+b2=Button(window,text="Login",command=login_user)
 b2.grid(row=2,column=1)
 
 b3=Button(window,text="exit",command=exit_pro)

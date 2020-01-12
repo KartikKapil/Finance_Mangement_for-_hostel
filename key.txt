@@ -1,0 +1,23 @@
+28c7fdb103232548b1503df6df9b4520
+
+category_id of resturants 
+    -> id = 8 
+    -> name=breakfast
+
+    ->id=9
+    ->name=lunch
+
+    ->id=10
+    ->name=Dinner
+
+ city_id =1
+ name= delhi 
+ lat=77.1025
+ long=28.7041
+ state_id=0
+
+get res_id from /geocode pass it to /resturants to get list of returants then see cuisisnes
+
+
+
+

@@ -1,0 +1,17 @@
+{
+    "id": "c_764",
+    "name": "Abdominal aortic aneurysm",
+    "common_name": "Abdominal aortic aneurysm",
+    "sex_filter": "both",
+    "categories": [
+        "Surgery"
+    ],
+    "prevalence": "very_rare",
+    "acuteness": "chronic",
+    "severity": "severe",
+    "extras": {
+        "icd10_code": "I71.4",
+        "hint": "Please consult your family doctor."
+    },
+    "triage_level": "consultation_24"
+}

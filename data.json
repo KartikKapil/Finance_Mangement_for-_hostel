@@ -1,0 +1,718 @@
+{
+    "location": {
+        "entity_type": "subzone",
+        "entity_id": 298,
+        "title": "DLF Phase 2",
+        "latitude": "28.4842470000",
+        "longitude": "77.0871550000",
+        "city_id": 1,
+        "city_name": "Delhi NCR",
+        "country_id": 1,
+        "country_name": "India"
+    },
+    "popularity": {
+        "popularity": "4.90",
+        "nightlife_index": "4.62",
+        "nearby_res": [
+            "18649486",
+            "18687573",
+            "19046158",
+            "18601364",
+            "18303709",
+            "313264",
+            "18618545",
+            "18289242",
+            "225"
+        ],
+        "top_cuisines": [
+            "North Indian",
+            "Chinese",
+            "Fast Food",
+            "Beverages",
+            "Desserts"
+        ],
+        "popularity_res": "100",
+        "nightlife_res": "10",
+        "subzone": "DLF Phase 2",
+        "subzone_id": 298,
+        "city": "Delhi NCR"
+    },
+    "link": "https://www.zomato.com/ncr/dlf-phase-2-gurgaon-restaurants",
+    "nearby_restaurants": [
+        {
+            "restaurant": {
+                "R": {
+                    "has_menu_status": {
+                        "delivery": -1,
+                        "takeaway": -1
+                    },
+                    "res_id": 18649486
+                },
+                "apikey": "28c7fdb103232548b1503df6df9b4520",
+                "id": "18649486",
+                "name": "The Drunken Botanist",
+                "url": "https://www.zomato.com/ncr/the-drunken-botanist-dlf-cyber-city-gurgaon?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+                "location": {
+                    "address": "Unit 1B & 1C, Upper Ground Floor-C, Building 10C, Cyber Hub, DLF Cyber City, Gurgaon",
+                    "locality": "Cyber Hub, DLF Cyber City",
+                    "city": "Gurgaon",
+                    "city_id": 1,
+                    "latitude": "28.4940689526",
+                    "longitude": "77.0886759460",
+                    "zipcode": "",
+                    "country_id": 1,
+                    "locality_verbose": "Cyber Hub, DLF Cyber City, Gurgaon"
+                },
+                "switch_to_order_menu": 0,
+                "cuisines": "Continental, Italian, North Indian, Chinese",
+                "average_cost_for_two": 2000,
+                "price_range": 4,
+                "currency": "Rs.",
+                "offers": [],
+                "zomato_events": [
+                    {
+                        "event": {
+                            "event_id": 435129,
+                            "friendly_start_date": "31 December",
+                            "friendly_end_date": "31 December",
+                            "friendly_timing_str": "Tuesday, 31st December",
+                            "start_date": "2019-12-31",
+                            "end_date": "2019-12-31",
+                            "end_time": "23:59:00",
+                            "start_time": "20:30:00",
+                            "is_active": 1,
+                            "date_added": "2019-12-23 21:32:33",
+                            "photos": [
+                                {
+                                    "photo": {
+                                        "url": "https://b.zmtcdn.com/data/zomato_events/photos/53a/b4bce27a4de94a5ac67b463baa62f53a_1577116953.jpg",
+                                        "thumb_url": "https://b.zmtcdn.com/data/zomato_events/photos/53a/b4bce27a4de94a5ac67b463baa62f53a_1577116953.jpg?fit=around%7C100%3A100&crop=100%3A100%3B%2A%2C%2A",
+                                        "order": 0,
+                                        "md5sum": "b4bce27a4de94a5ac67b463baa62f53a",
+                                        "id": 590133,
+                                        "photo_id": 590133,
+                                        "uuid": 16946315724,
+                                        "type": "FEATURED"
+                                    }
+                                }
+                            ],
+                            "restaurants": [],
+                            "is_valid": 1,
+                            "share_url": "http://www.zoma.to/r/0",
+                            "show_share_url": 0,
+                            "title": "#Hangover 2020",
+                            "description": "New Year's Party, the Drunken way!\n\nLet's flip the world upside down this NYE at The Drunken Botanist. Dance to the beats with DJ Rudy. Crazy concoctions and delightful delicacies await! \n\n31st December | 8 PM onwards",
+                            "display_time": "08:30 pm - 11:59 pm",
+                            "display_date": "31 December",
+                            "is_end_time_set": 1,
+                            "disclaimer": "Restaurants are solely responsible for the service; availability and quality of the events including all or any cancellations/ modifications/ complaints.",
+                            "event_category": 1,
+                            "event_category_name": "",
+                            "book_link": "",
+                            "types": [
+                                {
+                                    "name": "NEW YEARS",
+                                    "color": "#D39124"
+                                }
+                            ],
+                            "share_data": {
+                                "should_show": 0
+                            }
+                        }
+                    }
+                ],
+                "opentable_support": 0,
+                "is_zomato_book_res": 0,
+                "mezzo_provider": "OTHER",
+                "is_book_form_web_view": 0,
+                "book_form_web_view_url": "",
+                "book_again_url": "",
+                "thumb": "https://b.zmtcdn.com/data/pictures/6/18649486/891f5711b0028057cdf834ca1fee9780.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+                "user_rating": {
+                    "aggregate_rating": "4.4",
+                    "rating_text": "Very Good",
+                    "rating_color": "5BA829",
+                    "rating_obj": {
+                        "title": {
+                            "text": "4.4"
+                        },
+                        "bg_color": {
+                            "type": "lime",
+                            "tint": "700"
+                        }
+                    },
+                    "votes": "6041"
+                },
+                "photos_url": "https://www.zomato.com/ncr/the-drunken-botanist-dlf-cyber-city-gurgaon/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+                "menu_url": "https://www.zomato.com/ncr/the-drunken-botanist-dlf-cyber-city-gurgaon/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+                "featured_image": "https://b.zmtcdn.com/data/pictures/6/18649486/891f5711b0028057cdf834ca1fee9780.jpg?output-format=webp",
+                "has_online_delivery": 0,
+                "is_delivering_now": 0,
+                "include_bogo_offers": true,
+                "deeplink": "zomato://restaurant/18649486",
+                "is_table_reservation_supported": 0,
+                "has_table_booking": 0,
+                "events_url": "https://www.zomato.com/ncr/the-drunken-botanist-dlf-cyber-city-gurgaon/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+            }
+        },
+        {
+            "restaurant": {
+                "R": {
+                    "has_menu_status": {
+                        "delivery": -1,
+                        "takeaway": -1
+                    },
+                    "res_id": 18687573
+                },
+                "apikey": "28c7fdb103232548b1503df6df9b4520",
+                "id": "18687573",
+                "name": "eat.fit",
+                "url": "https://www.zomato.com/ncr/eat-fit-mg-road-gurgaon?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+                "location": {
+                    "address": "Grand Mall, Near Sikanderpur Metro Station, MG Road, Gurgaon",
+                    "locality": "MG Road",
+                    "city": "Gurgaon",
+                    "city_id": 1,
+                    "latitude": "28.4802532000",
+                    "longitude": "77.0897802000",
+                    "zipcode": "",
+                    "country_id": 1,
+                    "locality_verbose": "MG Road, Gurgaon"
+                },
+                "switch_to_order_menu": 0,
+                "cuisines": "Healthy Food",
+                "average_cost_for_two": 400,
+                "price_range": 1,
+                "currency": "Rs.",
+                "offers": [],
+                "opentable_support": 0,
+                "is_zomato_book_res": 0,
+                "mezzo_provider": "OTHER",
+                "is_book_form_web_view": 0,
+                "book_form_web_view_url": "",
+                "book_again_url": "",
+                "thumb": "https://b.zmtcdn.com/data/pictures/3/19131493/b7fb018ebabbdc4d9cf026f589bcbe72.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+                "user_rating": {
+                    "aggregate_rating": "4.2",
+                    "rating_text": "Very Good",
+                    "rating_color": "5BA829",
+                    "rating_obj": {
+                        "title": {
+                            "text": "4.2"
+                        },
+                        "bg_color": {
+                            "type": "lime",
+                            "tint": "700"
+                        }
+                    },
+                    "votes": "1102"
+                },
+                "photos_url": "https://www.zomato.com/ncr/eat-fit-mg-road-gurgaon/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+                "menu_url": "https://www.zomato.com/ncr/eat-fit-mg-road-gurgaon/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+                "featured_image": "https://b.zmtcdn.com/data/pictures/3/19131493/b7fb018ebabbdc4d9cf026f589bcbe72.jpg?output-format=webp",
+                "has_online_delivery": 1,
+                "is_delivering_now": 0,
+                "include_bogo_offers": true,
+                "deeplink": "zomato://restaurant/18687573",
+                "is_table_reservation_supported": 0,
+                "has_table_booking": 0,
+                "events_url": "https://www.zomato.com/ncr/eat-fit-mg-road-gurgaon/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+            }
+        },
+        {
+            "restaurant": {
+                "R": {
+                    "has_menu_status": {
+                        "delivery": -1,
+                        "takeaway": -1
+                    },
+                    "res_id": 19046158
+                },
+                "apikey": "28c7fdb103232548b1503df6df9b4520",
+                "id": "19046158",
+                "name": "Viet:Nom",
+                "url": "https://www.zomato.com/ncr/viet-nom-dlf-cyber-city-gurgaon?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+                "location": {
+                    "address": "17-18, DLF Phase 2, DLF Cyber Hub, Near DLF Cyber City, Gurgaon",
+                    "locality": "Cyber Hub, DLF Cyber City",
+                    "city": "Gurgaon",
+                    "city_id": 1,
+                    "latitude": "28.4956951850",
+                    "longitude": "77.0889009163",
+                    "zipcode": "",
+                    "country_id": 1,
+                    "locality_verbose": "Cyber Hub, DLF Cyber City, Gurgaon"
+                },
+                "switch_to_order_menu": 0,
+                "cuisines": "Vietnamese",
+                "average_cost_for_two": 2000,
+                "price_range": 4,
+                "currency": "Rs.",
+                "offers": [],
+                "opentable_support": 0,
+                "is_zomato_book_res": 0,
+                "mezzo_provider": "OTHER",
+                "is_book_form_web_view": 0,
+                "book_form_web_view_url": "",
+                "book_again_url": "",
+                "thumb": "https://b.zmtcdn.com/data/pictures/8/19046158/4e2366dad2d064415676321a12f17d5a.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+                "user_rating": {
+                    "aggregate_rating": "4.4",
+                    "rating_text": "Very Good",
+                    "rating_color": "5BA829",
+                    "rating_obj": {
+                        "title": {
+                            "text": "4.4"
+                        },
+                        "bg_color": {
+                            "type": "lime",
+                            "tint": "700"
+                        }
+                    },
+                    "votes": "563"
+                },
+                "photos_url": "https://www.zomato.com/ncr/viet-nom-dlf-cyber-city-gurgaon/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+                "menu_url": "https://www.zomato.com/ncr/viet-nom-dlf-cyber-city-gurgaon/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+                "featured_image": "https://b.zmtcdn.com/data/pictures/8/19046158/4e2366dad2d064415676321a12f17d5a.jpg?output-format=webp",
+                "medio_provider": 1,
+                "has_online_delivery": 0,
+                "is_delivering_now": 0,
+                "include_bogo_offers": true,
+                "deeplink": "zomato://restaurant/19046158",
+                "is_table_reservation_supported": 1,
+                "has_table_booking": 0,
+                "events_url": "https://www.zomato.com/ncr/viet-nom-dlf-cyber-city-gurgaon/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+            }
+        },
+        {
+            "restaurant": {
+                "R": {
+                    "has_menu_status": {
+                        "delivery": -1,
+                        "takeaway": -1
+                    },
+                    "res_id": 18601364
+                },
+                "apikey": "28c7fdb103232548b1503df6df9b4520",
+                "id": "18601364",
+                "name": "AB's - Absolute Barbecues",
+                "url": "https://www.zomato.com/ncr/abs-absolute-barbecues-mg-road-gurgaon?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+                "location": {
+                    "address": "Shop 1-3, Lower Ground, MGF Metropolis Mall, MG Road, Gurgaon",
+                    "locality": "MGF Metropolis Mall, MG Road",
+                    "city": "Gurgaon",
+                    "city_id": 1,
+                    "latitude": "28.4789740583",
+                    "longitude": "77.0822423324",
+                    "zipcode": "",
+                    "country_id": 1,
+                    "locality_verbose": "MGF Metropolis Mall, MG Road, Gurgaon"
+                },
+                "switch_to_order_menu": 0,
+                "cuisines": "BBQ, Mediterranean, European, North Indian",
+                "average_cost_for_two": 1600,
+                "price_range": 3,
+                "currency": "Rs.",
+                "offers": [],
+                "zomato_events": [
+                    {
+                        "event": {
+                            "event_id": 340138,
+                            "friendly_start_date": "27 July",
+                            "friendly_end_date": "31 December",
+                            "friendly_timing_str": "Saturday, 27th July - Tuesday, 31st December",
+                            "start_date": "2019-07-27",
+                            "end_date": "2019-12-31",
+                            "end_time": "23:55:00",
+                            "start_time": "12:00:00",
+                            "is_active": 1,
+                            "date_added": "2019-04-16 18:40:02",
+                            "photos": [],
+                            "restaurants": [],
+                            "is_valid": 1,
+                            "share_url": "http://www.zoma.to/r/0",
+                            "show_share_url": 0,
+                            "title": "Group Deals & Offers",
+                            "description": "1.\t“Now Serving Happiness” Now Enjoy the Best BBQ Buffet at 599/-  Tax for both Veg and Non Veg, along with a Select BEER or a Cocktail or a Mocktail Valid from Monday till Saturday in Lunch.\n\n2.     \"BBQ BASH\" Now Enjoy the Best BBQ Buffet at 599/-  Tax for both Veg and Non-Veg, Monday & Tuesday in Dinner.\n3. Join us for an Absolute Carnival @ AB's and enjoy the festivities of New Year Celebration. We have special menu from 20th Dec -05th Jan. bit.ly/BookTnow",
+                            "display_time": "12:00 pm - 11:55 pm",
+                            "display_date": "27 July - 31 December",
+                            "is_end_time_set": 1,
+                            "disclaimer": "Restaurants are solely responsible for the service; availability and quality of the events including all or any cancellations/ modifications/ complaints.",
+                            "event_category": 0,
+                            "event_category_name": "",
+                            "book_link": "",
+                            "types": [
+                                {
+                                    "name": "PROMOS",
+                                    "color": "#F96C6A"
+                                }
+                            ],
+                            "share_data": {
+                                "should_show": 0
+                            }
+                        }
+                    }
+                ],
+                "opentable_support": 0,
+                "is_zomato_book_res": 0,
+                "mezzo_provider": "OTHER",
+                "is_book_form_web_view": 0,
+                "book_form_web_view_url": "",
+                "book_again_url": "",
+                "thumb": "https://b.zmtcdn.com/data/pictures/chains/4/18601364/cc7e5ba04c3d10c8f5d8b04b79ed9ab5.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+                "user_rating": {
+                    "aggregate_rating": "4.4",
+                    "rating_text": "Very Good",
+                    "rating_color": "5BA829",
+                    "rating_obj": {
+                        "title": {
+                            "text": "4.4"
+                        },
+                        "bg_color": {
+                            "type": "lime",
+                            "tint": "700"
+                        }
+                    },
+                    "votes": "5438"
+                },
+                "photos_url": "https://www.zomato.com/ncr/abs-absolute-barbecues-mg-road-gurgaon/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+                "menu_url": "https://www.zomato.com/ncr/abs-absolute-barbecues-mg-road-gurgaon/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+                "featured_image": "https://b.zmtcdn.com/data/pictures/chains/4/18601364/cc7e5ba04c3d10c8f5d8b04b79ed9ab5.jpg",
+                "medio_provider": 1,
+                "has_online_delivery": 0,
+                "is_delivering_now": 0,
+                "include_bogo_offers": true,
+                "deeplink": "zomato://restaurant/18601364",
+                "is_table_reservation_supported": 1,
+                "has_table_booking": 1,
+                "book_url": "https://www.zomato.com/ncr/abs-absolute-barbecues-mg-road-gurgaon/book?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+                "events_url": "https://www.zomato.com/ncr/abs-absolute-barbecues-mg-road-gurgaon/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+            }
+        },
+        {
+            "restaurant": {
+                "R": {
+                    "has_menu_status": {
+                        "delivery": -1,
+                        "takeaway": -1
+                    },
+                    "res_id": 18303709
+                },
+                "apikey": "28c7fdb103232548b1503df6df9b4520",
+                "id": "18303709",
+                "name": "Burma Burma",
+                "url": "https://www.zomato.com/ncr/burma-burma-dlf-cyber-city-gurgaon?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+                "location": {
+                    "address": "Shop 6, Ground Floor, Building 8, Tower C, Cyber Hub, DLF Cyber City, Gurgaon",
+                    "locality": "Cyber Hub, DLF Cyber City",
+                    "city": "Gurgaon",
+                    "city_id": 1,
+                    "latitude": "28.4944643896",
+                    "longitude": "77.0885324478",
+                    "zipcode": "122002",
+                    "country_id": 1,
+                    "locality_verbose": "Cyber Hub, DLF Cyber City, Gurgaon"
+                },
+                "switch_to_order_menu": 0,
+                "cuisines": "Asian, Burmese, Bubble Tea, Desserts, Salad, Tea, Beverages, Ice Cream",
+                "average_cost_for_two": 1500,
+                "price_range": 3,
+                "currency": "Rs.",
+                "offers": [],
+                "opentable_support": 0,
+                "is_zomato_book_res": 0,
+                "mezzo_provider": "OTHER",
+                "is_book_form_web_view": 0,
+                "book_form_web_view_url": "",
+                "book_again_url": "",
+                "thumb": "https://b.zmtcdn.com/data/pictures/chains/9/18303709/69c66c4dd101dd3eba9ad0668a70c5dd.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+                "user_rating": {
+                    "aggregate_rating": "4.6",
+                    "rating_text": "Excellent",
+                    "rating_color": "3F7E00",
+                    "rating_obj": {
+                        "title": {
+                            "text": "4.6"
+                        },
+                        "bg_color": {
+                            "type": "lime",
+                            "tint": "800"
+                        }
+                    },
+                    "votes": "2515"
+                },
+                "photos_url": "https://www.zomato.com/ncr/burma-burma-dlf-cyber-city-gurgaon/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+                "menu_url": "https://www.zomato.com/ncr/burma-burma-dlf-cyber-city-gurgaon/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+                "featured_image": "https://b.zmtcdn.com/data/pictures/chains/9/18303709/69c66c4dd101dd3eba9ad0668a70c5dd.jpg",
+                "medio_provider": 1,
+                "has_online_delivery": 1,
+                "is_delivering_now": 0,
+                "include_bogo_offers": true,
+                "deeplink": "zomato://restaurant/18303709",
+                "is_table_reservation_supported": 1,
+                "has_table_booking": 0,
+                "events_url": "https://www.zomato.com/ncr/burma-burma-dlf-cyber-city-gurgaon/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+            }
+        },
+        {
+            "restaurant": {
+                "R": {
+                    "has_menu_status": {
+                        "delivery": 1,
+                        "takeaway": -1
+                    },
+                    "res_id": 313264
+                },
+                "apikey": "28c7fdb103232548b1503df6df9b4520",
+                "id": "313264",
+                "name": "Burger King",
+                "url": "https://www.zomato.com/ncr/burger-king-mg-road-gurgaon?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+                "location": {
+                    "address": "Ground Floor, PVR City Centre Mall, MG Road, Gurgaon",
+                    "locality": "PVR City Centre Mall, MG Road",
+                    "city": "Gurgaon",
+                    "city_id": 1,
+                    "latitude": "28.4789487136",
+                    "longitude": "77.0805880800",
+                    "zipcode": "",
+                    "country_id": 1,
+                    "locality_verbose": "PVR City Centre Mall, MG Road, Gurgaon"
+                },
+                "switch_to_order_menu": 0,
+                "cuisines": "Burger, American",
+                "average_cost_for_two": 500,
+                "price_range": 2,
+                "currency": "Rs.",
+                "offers": [],
+                "opentable_support": 0,
+                "is_zomato_book_res": 0,
+                "mezzo_provider": "OTHER",
+                "is_book_form_web_view": 0,
+                "book_form_web_view_url": "",
+                "book_again_url": "",
+                "thumb": "https://b.zmtcdn.com/data/pictures/3/19249523/5eccc92c862900b7655250cd8358bd13.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+                "user_rating": {
+                    "aggregate_rating": "3.9",
+                    "rating_text": "Good",
+                    "rating_color": "9ACD32",
+                    "rating_obj": {
+                        "title": {
+                            "text": "3.9"
+                        },
+                        "bg_color": {
+                            "type": "lime",
+                            "tint": "600"
+                        }
+                    },
+                    "votes": "1418"
+                },
+                "photos_url": "https://www.zomato.com/ncr/burger-king-mg-road-gurgaon/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+                "menu_url": "https://www.zomato.com/ncr/burger-king-mg-road-gurgaon/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+                "featured_image": "https://b.zmtcdn.com/data/pictures/3/19249523/5eccc92c862900b7655250cd8358bd13.jpg?output-format=webp",
+                "has_online_delivery": 1,
+                "is_delivering_now": 1,
+                "include_bogo_offers": true,
+                "deeplink": "zomato://restaurant/313264",
+                "order_url": "https://www.zomato.com/ncr/burger-king-mg-road-gurgaon/order?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+                "order_deeplink": "",
+                "is_table_reservation_supported": 0,
+                "has_table_booking": 0,
+                "events_url": "https://www.zomato.com/ncr/burger-king-mg-road-gurgaon/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+            }
+        },
+        {
+            "restaurant": {
+                "R": {
+                    "has_menu_status": {
+                        "delivery": 1,
+                        "takeaway": -1
+                    },
+                    "res_id": 18618545
+                },
+                "apikey": "28c7fdb103232548b1503df6df9b4520",
+                "id": "18618545",
+                "name": "Ice Pice",
+                "url": "https://www.zomato.com/icepice?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+                "location": {
+                    "address": "41, Lower Ground, MGF Metropolis Mall, MG Road, Gurgaon",
+                    "locality": "MGF Metropolis Mall, MG Road",
+                    "city": "Gurgaon",
+                    "city_id": 1,
+                    "latitude": "28.4790680691",
+                    "longitude": "77.0822272450",
+                    "zipcode": "122003",
+                    "country_id": 1,
+                    "locality_verbose": "MGF Metropolis Mall, MG Road, Gurgaon"
+                },
+                "switch_to_order_menu": 0,
+                "cuisines": "Beverages, Ice Cream",
+                "average_cost_for_two": 200,
+                "price_range": 1,
+                "currency": "Rs.",
+                "offers": [],
+                "opentable_support": 0,
+                "is_zomato_book_res": 0,
+                "mezzo_provider": "OTHER",
+                "is_book_form_web_view": 0,
+                "book_form_web_view_url": "",
+                "book_again_url": "",
+                "thumb": "https://b.zmtcdn.com/data/pictures/chains/5/18618545/24d73eb5167ca0b32c77c4e9e86d21f3.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+                "user_rating": {
+                    "aggregate_rating": "4.5",
+                    "rating_text": "Excellent",
+                    "rating_color": "3F7E00",
+                    "rating_obj": {
+                        "title": {
+                            "text": "4.5"
+                        },
+                        "bg_color": {
+                            "type": "lime",
+                            "tint": "700"
+                        }
+                    },
+                    "votes": "1025"
+                },
+                "photos_url": "https://www.zomato.com/icepice/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+                "menu_url": "https://www.zomato.com/icepice/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+                "featured_image": "https://b.zmtcdn.com/data/pictures/chains/5/18618545/24d73eb5167ca0b32c77c4e9e86d21f3.jpg?output-format=webp",
+                "has_online_delivery": 1,
+                "is_delivering_now": 1,
+                "include_bogo_offers": true,
+                "deeplink": "zomato://restaurant/18618545",
+                "order_url": "https://www.zomato.com/icepice/order?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+                "order_deeplink": "",
+                "is_table_reservation_supported": 0,
+                "has_table_booking": 0,
+                "events_url": "https://www.zomato.com/icepice/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+            }
+        },
+        {
+            "restaurant": {
+                "R": {
+                    "has_menu_status": {
+                        "delivery": -1,
+                        "takeaway": -1
+                    },
+                    "res_id": 18289242
+                },
+                "apikey": "28c7fdb103232548b1503df6df9b4520",
+                "id": "18289242",
+                "name": "Cyber Hub Social",
+                "url": "https://www.zomato.com/CyberHubSocial?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+                "location": {
+                    "address": "Shop 4A, Ground Floor, DLF Cyber Hub, Tower 8C, DLF Cyber City, Gurgaon",
+                    "locality": "Cyber Hub, DLF Cyber City",
+                    "city": "Gurgaon",
+                    "city_id": 1,
+                    "latitude": "28.4940571661",
+                    "longitude": "77.0883668214",
+                    "zipcode": "",
+                    "country_id": 1,
+                    "locality_verbose": "Cyber Hub, DLF Cyber City, Gurgaon"
+                },
+                "switch_to_order_menu": 0,
+                "cuisines": "North Indian, Chinese, Biryani, American, Continental",
+                "average_cost_for_two": 2200,
+                "price_range": 4,
+                "currency": "Rs.",
+                "offers": [],
+                "opentable_support": 0,
+                "is_zomato_book_res": 0,
+                "mezzo_provider": "OTHER",
+                "is_book_form_web_view": 0,
+                "book_form_web_view_url": "",
+                "book_again_url": "",
+                "thumb": "https://b.zmtcdn.com/data/pictures/2/18289242/972a5ed0736cd32dbea4a9cf826374d6.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+                "user_rating": {
+                    "aggregate_rating": "4.5",
+                    "rating_text": "Excellent",
+                    "rating_color": "3F7E00",
+                    "rating_obj": {
+                        "title": {
+                            "text": "4.5"
+                        },
+                        "bg_color": {
+                            "type": "lime",
+                            "tint": "700"
+                        }
+                    },
+                    "votes": "4028"
+                },
+                "photos_url": "https://www.zomato.com/CyberHubSocial/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+                "menu_url": "https://www.zomato.com/CyberHubSocial/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+                "featured_image": "https://b.zmtcdn.com/data/pictures/2/18289242/972a5ed0736cd32dbea4a9cf826374d6.jpg",
+                "has_online_delivery": 1,
+                "is_delivering_now": 0,
+                "include_bogo_offers": true,
+                "deeplink": "zomato://restaurant/18289242",
+                "is_table_reservation_supported": 0,
+                "has_table_booking": 0,
+                "events_url": "https://www.zomato.com/CyberHubSocial/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+            }
+        },
+        {
+            "restaurant": {
+                "R": {
+                    "has_menu_status": {
+                        "delivery": -1,
+                        "takeaway": -1
+                    },
+                    "res_id": 225
+                },
+                "apikey": "28c7fdb103232548b1503df6df9b4520",
+                "id": "225",
+                "name": "Domino's Pizza",
+                "url": "https://www.zomato.com/ncr/dominos-pizza-dlf-cyber-city-gurgaon?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+                "location": {
+                    "address": "UGF/RTC 9, Building 8, Tower C, DLF 2, DLF Cyber City, Gurgaon",
+                    "locality": "DLF Cyber City",
+                    "city": "Gurgaon",
+                    "city_id": 1,
+                    "latitude": "28.4953940436",
+                    "longitude": "77.0906946436",
+                    "zipcode": "0",
+                    "country_id": 1,
+                    "locality_verbose": "DLF Cyber City, Gurgaon"
+                },
+                "switch_to_order_menu": 0,
+                "cuisines": "Pizza, Fast Food",
+                "average_cost_for_two": 400,
+                "price_range": 1,
+                "currency": "Rs.",
+                "offers": [],
+                "opentable_support": 0,
+                "is_zomato_book_res": 0,
+                "mezzo_provider": "OTHER",
+                "is_book_form_web_view": 0,
+                "book_form_web_view_url": "",
+                "book_again_url": "",
+                "thumb": "https://b.zmtcdn.com/data/pictures/chains/3/143/a3f876979c7b1a123ff8d0548d774cb1.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+                "user_rating": {
+                    "aggregate_rating": "3.8",
+                    "rating_text": "Good",
+                    "rating_color": "9ACD32",
+                    "rating_obj": {
+                        "title": {
+                            "text": "3.8"
+                        },
+                        "bg_color": {
+                            "type": "lime",
+                            "tint": "600"
+                        }
+                    },
+                    "votes": "808"
+                },
+                "photos_url": "https://www.zomato.com/ncr/dominos-pizza-dlf-cyber-city-gurgaon/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+                "menu_url": "https://www.zomato.com/ncr/dominos-pizza-dlf-cyber-city-gurgaon/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+                "featured_image": "https://b.zmtcdn.com/data/pictures/chains/3/143/a3f876979c7b1a123ff8d0548d774cb1.jpg?output-format=webp",
+                "has_online_delivery": 0,
+                "is_delivering_now": 0,
+                "include_bogo_offers": true,
+                "deeplink": "zomato://restaurant/225",
+                "is_table_reservation_supported": 0,
+                "has_table_booking": 0,
+                "events_url": "https://www.zomato.com/ncr/dominos-pizza-dlf-cyber-city-gurgaon/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+            }
+        }
+    ]
+}

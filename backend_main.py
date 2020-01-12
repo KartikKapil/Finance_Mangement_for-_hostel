@@ -1,6 +1,10 @@
 import sqlite3
 from pandas import *
-
+from datetime import *
+import sys
+sys.path.insert(0,'./important/')
+from main.py import *
+import itertools
 def connect():
 	conn=sqlite3.connect("Main_database.db")
 	cur=conn.cursor()
@@ -9,6 +13,7 @@ def connect():
 	conn.close()
 
 connect()
+
 
 def enter_data(login_id,password,amout_monthly,saving_monthly,dislike_1,dislike_2,dislike_3,dislike_4,cuisine,date_of_event_1,date_of_event_2,date_of_event_3,date_of_event_4):
 
@@ -147,16 +152,57 @@ def cal_date(dislike):
 		if(t=="."):
 			to_check_date=to_check_date+"-"
 
-	return(to_check_date)
+	return(datetime.strptime(to_check_date,'%d-%m-%Y').strftime('%d-%m-%Y'))
 
 
 def cal_main():
-	global doe1,doe2,doe4,doe3
-	to_check_date=cal_date()
-	if ((to_check_date==doe1) or (to_check_date==doe2) or (to_check_date==doe3) or (to_check_date==doe4)):
-		mon_amo=mon_amo-800
-		budget_allocated=800
-		return budget_allocated
+	global doe1,doe2,doe4,doe3,dislike1,dislike2,dislike3,dislike4
+	budget_allocated=0
+	for i in (dislike1,dislike2,dislike3,dislike4):
+		if((i==NULL) or  (i==None)):
+			continue
+		to_check_date=cal_date(i)	
+		if ((to_check_date==doe1) or (to_check_date==doe2) or (to_check_date==doe3) or (to_check_date==doe4)):
+			mon_amo=mon_amo-550
+			budget_allocated=550
+
+		elif((to_check_date.isocalendar()[1])==(doe1.isocalendar()[1])) or (((to_check_date.isocalendar()[1])==(doe2.isocalendar()[1]))) or ((to_check_date.isocalendar()[1])==(doe3.isocalendar()[1])) or ((to_check_date.isocalendar()[1])==(doe4.isocalendar()[1])):
+			budget_allocated=(mon_amo)/10
+			mon_amo=mon_amo-(budget_allocated)
+
+		else:
+			budget_allocated=400
+			mon_amo=mon_amo-400
+
+	return budget_allocated
+
+
+def crawler(cuisine):
+	cuisine_list=list(cuisine)
+
+	for i in range(0,len(cuisine)+1):
+		for combination in itertools.combinations(cuisine_list,i):
+			if(str(combination)==cuisine):
+				return combination
+
+
+def crawled(cuisine):
+
+	t=crawler(cuisine)
+	for i in t:
+		if(i==1):
+			print("Italian")
+		elif(i==2):
+			print("Chinese")
+		elif(i==3):
+					
+
+
+	
+		
+		
+
+	
 	
 
 
